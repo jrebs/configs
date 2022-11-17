@@ -32,3 +32,6 @@
   uncommit = reset HEAD~^
 
   rpo = remote prune origin 
+
+[pull]
+  ff = only
