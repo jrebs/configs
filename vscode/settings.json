@@ -1,25 +1,29 @@
 {
 
-    // General Editor Settings
-    "editor.fontFamily": "monospace,'Inconsolata','Dank Mono','monospace', monospace, 'Droid Sans Fallback'",
-    "files.trimTrailingWhitespace": true,
+    // Native Editor Settings
+    "debug.console.fontSize": 16,
+    "debug.toolBarLocation": "docked",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Hack', Monospace",
+    "editor.minimap.enabled": true,
+    "editor.rulers": [
+        79,
+        119
+    ],
+    "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "files.eol": "\n",
-    "editor.detectIndentation": false,
-    "editor.rulers": [79, 119],
-    "workbench.editor.untitled.hint": "hidden",
-    "workbench.startupEditor": "newUntitledFile",
-    "namespaceResolver.leadingSeparator": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.commandPalette.preserveInput": true,
-    "editor.minimap.enabled": true,
-    "terminal.integrated.fontSize": 16,
-    "debug.console.fontSize": 16,
+    "files.trimTrailingWhitespace": true,
+    "git.openRepositoryInParentFolders": "never",
     "security.workspace.trust.untrustedFiles": "open",
-
-    // "Laravel Theme" by gerane
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 16,
+    "window.title": "code - ${rootName}",
     "workbench.colorTheme": "Laravel",
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
         "editor.background": "#000",
         "panel.background": "#000",
@@ -38,6 +42,7 @@
         "editorRuler.foreground": "#424242"
     },
 
+    // Extension: Xdebug
     // Allow for xdebug in all projects without needing per-project configs
     "launch": {
         "version": "0.2.0",
@@ -51,21 +56,27 @@
         ]
     },
 
-    // "php cs fixer" by junstyle
+    // Extension: "Laravel Artisan" by Ryan Naddy
+    "artisan.serve.defaultHost": "0.0.0.0",
+
+    // Extension: "Notes" by Dion Munk
+    "Notes.notesLocation": "/home/justin/notes",
+
+    // Extension: "PHP Namespace Resolver" by Mehedi Hassan
+    "namespaceResolver.leadingSeparator": false,
+
+    // Extension: "php cs fixer" by junstyle
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1668727164020,
+    "php-cs-fixer.lastDownload": 1700679780784,
     "php-cs-fixer.rules": "@PSR12",
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer",
     },
 
-    // "Laravel Artisan" by Ryan Naddy
-    "artisan.serve.defaultHost": "0.0.0.0",
-
-    // "PHP DocBlocker" by Neil Brayfield
+    // Extension: "PHP DocBlocker" by Neil Brayfield
     "php-docblocker.qualifyClassNames": true,
 
-    // "PHP Intelephense" by Ben Mewburn
+    // Extension: "PHP Intelephense" by Ben Mewburn
     // This block adds code sense for non-core PHP functionality.
     "intelephense.stubs": [
         "apache",
@@ -141,4 +152,7 @@
         "zlib",
         "yaml"
     ],
+
+    // Extension: "Todo Tree" by Gruntfuggly
+    "todo-tree.highlights.useColourScheme": true,
 }
