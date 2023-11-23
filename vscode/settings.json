@@ -60,7 +60,7 @@
     "artisan.serve.defaultHost": "0.0.0.0",
 
     // Extension: "Notes" by Dion Munk
-    "Notes.notesLocation": "/home/justin/notes",
+    "Notes.notesLocation": "/home/${userHome}/notes",
 
     // Extension: "PHP Namespace Resolver" by Mehedi Hassan
     "namespaceResolver.leadingSeparator": false,
