@@ -1,11 +1,11 @@
 {
-
     // Native Editor Settings
     "debug.console.fontSize": 16,
     "debug.toolBarLocation": "docked",
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.detectIndentation": false,
-    "editor.fontFamily": "'Jetbrains Mono'",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontSize": 16,
     "editor.minimap.enabled": true,
     "editor.rulers": [
         79,
@@ -17,13 +17,16 @@
     "files.trimTrailingWhitespace": true,
     "git.openRepositoryInParentFolders": "never",
     "security.workspace.trust.untrustedFiles": "open",
-    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
     "terminal.integrated.fontSize": 16,
     "terminal.external.linuxExec": "xfce4-terminal",
     "window.title": "code - ${rootName}",
     "workbench.commandPalette.preserveInput": true,
     "workbench.editor.empty.hint": "hidden",
     "workbench.startupEditor": "newUntitledFile",
+
+    // Theme Settings
+    "workbench.colorTheme": "SynthWave '84",
     "synthwave84.brightness": 0.45,
 
     // Extension: Xdebug
@@ -43,9 +46,6 @@
     // Extension: "Laravel Artisan" by Ryan Naddy
     "artisan.serve.defaultHost": "0.0.0.0",
 
-    // Extension: "Notes" by Dion Munk
-    "Notes.notesLocation": "/home/${userHome}/notes",
-
     // Extension: "PHP Namespace Resolver" by Mehedi Hassan
     "namespaceResolver.leadingSeparator": false,
 
@@ -59,6 +59,16 @@
 
     // Extension: "PHP DocBlocker" by Neil Brayfield
     "php-docblocker.qualifyClassNames": true,
+
+    // Extension: "Todo Tree" by Gruntfuggly
+    "todo-tree.highlights.useColourScheme": true,
+
+    // Extension: "Focus" by QuanLi
+    "focus.opacity": "0.5",
+    "focus.highlightRange": "block",
+
+    // Extension: "Toggle Zen Mode" by Fahab Talib
+    "zenMode.restore": false,
 
     // Extension: "PHP Intelephense" by Ben Mewburn
     // This block adds code sense for non-core PHP functionality.
@@ -135,13 +145,5 @@
         "zip",
         "zlib",
         "yaml"
-    ],
-
-    // Extension: "Todo Tree" by Gruntfuggly
-    "todo-tree.highlights.useColourScheme": true,
-    "workbench.colorTheme": "SynthWave '84",
-    "focus.opacity": "0.5",
-    "focus.highlightRange": "block",
-    "editor.fontSize": 16,
-    "zenMode.restore": false
+    ]
 }
