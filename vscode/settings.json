@@ -3,9 +3,9 @@
     // Native Editor Settings
     "debug.console.fontSize": 16,
     "debug.toolBarLocation": "docked",
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "editor.detectIndentation": false,
-    "editor.fontFamily": "'Hack', Monospace",
+    "editor.fontFamily": "'Jetbrains Mono'",
     "editor.minimap.enabled": true,
     "editor.rulers": [
         79,
@@ -19,28 +19,12 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontSize": 16,
+    "terminal.external.linuxExec": "xfce4-terminal",
     "window.title": "code - ${rootName}",
-    "workbench.colorTheme": "Laravel",
     "workbench.commandPalette.preserveInput": true,
     "workbench.editor.empty.hint": "hidden",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorCustomizations": {
-        "editor.background": "#000",
-        "panel.background": "#000",
-        "terminal.background": "#000",
-        "sideBar.background": "#000",
-        "quickInput.background": "#000",
-        "input.background": "#000",
-        "tab.inactiveBackground": "#111111",
-        "activityBar.background": "#000000",
-        "editorGroupHeader.tabsBackground": "#111",
-        "list.inactiveSelectionBackground": "#222",
-        "gitDecoration.untrackedResourceForeground": "#338133",
-        "editor.selectionBackground": "#222",
-        "statusBar.background": "#265b8d",
-        "statusBarItem.remoteBackground": "#265b8d",
-        "editorRuler.foreground": "#424242"
-    },
+    "synthwave84.brightness": 0.45,
 
     // Extension: Xdebug
     // Allow for xdebug in all projects without needing per-project configs
@@ -67,7 +51,7 @@
 
     // Extension: "php cs fixer" by junstyle
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1700679780784,
+    "php-cs-fixer.lastDownload": 1724643939831,
     "php-cs-fixer.rules": "@PSR12",
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer",
@@ -155,4 +139,9 @@
 
     // Extension: "Todo Tree" by Gruntfuggly
     "todo-tree.highlights.useColourScheme": true,
+    "workbench.colorTheme": "SynthWave '84",
+    "focus.opacity": "0.5",
+    "focus.highlightRange": "block",
+    "editor.fontSize": 16,
+    "zenMode.restore": false
 }
