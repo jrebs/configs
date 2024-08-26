@@ -28,6 +28,7 @@
     // Theme Settings
     "workbench.colorTheme": "SynthWave '84",
     "synthwave84.brightness": 0.45,
+    "workbench.iconTheme": "vscode-icons",
 
     // Extension: Xdebug
     // Allow for xdebug in all projects without needing per-project configs
