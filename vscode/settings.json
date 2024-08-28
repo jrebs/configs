@@ -1,7 +1,10 @@
 {
     // Native Editor Settings
     "debug.console.fontSize": 16,
-    "debug.toolBarLocation": "docked",
+    "debug.toolBarLocation": "commandCenter",
+    "window.commandCenter": true,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "custom",
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "Jetbrains Mono",
