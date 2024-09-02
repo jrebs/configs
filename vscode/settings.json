@@ -1,15 +1,16 @@
 {
     // Native Editor Settings
+    "telemetry.telemetryLevel": "off",
     "debug.console.fontSize": 16,
     "debug.toolBarLocation": "commandCenter",
     "window.commandCenter": true,
-    "window.customTitleBarVisibility": "never",
+    "window.customTitleBarVisibility": "auto",
     "window.titleBarStyle": "custom",
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "Jetbrains Mono",
     "editor.fontSize": 16,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.rulers": [
         79,
         119
@@ -30,6 +31,8 @@
     "workbench.commandPalette.preserveInput": true,
     "workbench.editor.empty.hint": "hidden",
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
 
     // Theme Settings
     "workbench.colorTheme": "SynthWave '84",
@@ -55,6 +58,7 @@
 
     // Extension: "PHP Namespace Resolver" by Mehedi Hassan
     "namespaceResolver.leadingSeparator": false,
+    "namespaceResolver.sortAlphabetically": true,
 
     // Extension: "php cs fixer" by junstyle
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
@@ -69,6 +73,18 @@
 
     // Extension: "Todo Tree" by Gruntfuggly
     "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.highlights.defaultHighlight": {
+		"background": "#f5e33f",
+		"foreground": "#000000",
+		"fontWeight": "bold",
+		"iconColour": "#ffffff"
+	},
+    "todo-tree.filtering.excludeGlobs": [
+		"**/node_modules/*/**",
+		"*.csv",
+		"addons",
+		"*.md"
+	],
 
     // Extension: "Focus" by QuanLi
     "focus.opacity": "0.5",

@@ -1,0 +1,36 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+w",
+		"command": "-toggleFindWholeWord",
+		"when": "editorFocus"
+	},
+	{
+		"key": "alt+w",
+		"command": "workbench.action.joinAllGroups",
+		"when": "editorFocus"
+	},
+	{
+		"key": "alt-h",
+		"command": "workbench.action.navigateLeft",
+		"when": "editorFocus"
+	},
+	{
+		"key": "alt-l",
+		"command": "workbench.action.navigateRight",
+		"when": "editorFocus"
+	},
+	{
+		"key": "alt-n",
+		"command": "workbench.action.splitEditor",
+		"when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.view.extension.todo-tree-container"
+    }
+]
