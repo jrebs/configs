@@ -31,8 +31,8 @@
     "workbench.commandPalette.preserveInput": true,
     "workbench.editor.empty.hint": "hidden",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.sideBar.location": "right",
-    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.location": "default",
 
     // Theme Settings
     "workbench.colorTheme": "SynthWave '84",
@@ -62,7 +62,7 @@
 
     // Extension: "php cs fixer" by junstyle
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1724643939831,
+    "php-cs-fixer.lastDownload": 1725385950333,
     "php-cs-fixer.rules": "@PSR12",
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer",
