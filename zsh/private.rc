@@ -1,0 +1,5 @@
+# This file will be sourced by ~/.zshrc.
+# Include any zsh configuration dierctives that should be kept out of the
+# public dotfiles repo.
+
+export DEVHOST="justindev.aws"
