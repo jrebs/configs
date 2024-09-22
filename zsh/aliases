@@ -1,3 +1,4 @@
 alias tinker="php artisan tinker"
 alias artisan="php artisan"
 alias pa="php artisan"
+alias vim="nvim"
