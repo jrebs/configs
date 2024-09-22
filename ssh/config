@@ -1,0 +1,12 @@
+# ~/.ssh/config
+
+Include ~/.ssh/justin.conf
+
+# Home Network
+Host owl
+  Hostname 10.0.0.2
+  User jables
+
+Host phoenix
+  User jables
+  ForwardAgent yes
